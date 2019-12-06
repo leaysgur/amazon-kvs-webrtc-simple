@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>MASTER</title>
+        <style>
+            video { background-color: #111; width: 320px; }
+        </style>
+    </head>
+    <body>
+        <p>local(= MASTER)</p>
+        <video></video>
+
+        <p>remotes(= VIEWER)</p>
+        <div id="remotes"></div>
+
+        <script src="./src/vendor/aws-sdk.min.js"></script>
+        <script src="./src/vendor/kvs-webrtc.js"></script>
+        <script src="./src/master.js" type="module"></script>
+    </body>
+</html>
