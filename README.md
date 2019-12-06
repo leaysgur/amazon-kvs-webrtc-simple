@@ -13,3 +13,5 @@ Simple minimum demo app using `amazon-kinesis-video-streams-webrtc-sdk-js`.
   - It seems ~10 viewers are available
 
 See also https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-js
+
+Since this SDK does not provide wrapper for WebRTC specific APIs, you may need some library like [simple-p2p](https://github.com/leader22/simple-p2p) instead.
